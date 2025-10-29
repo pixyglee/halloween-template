@@ -39,7 +39,7 @@ const AppBarChart = () => {
                         axisLine={false}
                         tickFormatter={(value) => value.slice(0, 3)}
                     />
-                     <YAxis
+                    <YAxis
                         tickLine={false}
                         tickMargin={10}
                         axisLine={false}

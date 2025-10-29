@@ -107,26 +107,26 @@ const AppSidebar = () => {
                         </SidebarGroupLabel>
                         <CollapsibleContent>
 
-                        <SidebarGroupContent>
-                            <SidebarMenu>
-                                <SidebarMenuItem>
-                                    <SidebarMenuButton asChild>
-                                        <Link href="#">
-                                            <Projector />
-                                            See All Projects
-                                        </Link>
-                                    </SidebarMenuButton>
-                                </SidebarMenuItem>
-                                <SidebarMenuItem>
-                                    <SidebarMenuButton asChild>
-                                        <Link href="#">
-                                            <Plus />
-                                            Add Projects
-                                        </Link>
-                                    </SidebarMenuButton>
-                                </SidebarMenuItem>
-                            </SidebarMenu>
-                        </SidebarGroupContent>
+                            <SidebarGroupContent>
+                                <SidebarMenu>
+                                    <SidebarMenuItem>
+                                        <SidebarMenuButton asChild>
+                                            <Link href="#">
+                                                <Projector />
+                                                See All Projects
+                                            </Link>
+                                        </SidebarMenuButton>
+                                    </SidebarMenuItem>
+                                    <SidebarMenuItem>
+                                        <SidebarMenuButton asChild>
+                                            <Link href="#">
+                                                <Plus />
+                                                Add Projects
+                                            </Link>
+                                        </SidebarMenuButton>
+                                    </SidebarMenuItem>
+                                </SidebarMenu>
+                            </SidebarGroupContent>
                         </CollapsibleContent>
 
                     </SidebarGroup>
@@ -149,10 +149,10 @@ const AppSidebar = () => {
                             <SidebarMenuSub>
                                 <SidebarMenuItem>
                                     <SidebarMenuButton asChild>
-                                         <Link href="#">
+                                        <Link href="#">
                                             <Plus />
                                             Add Projects
-                                        </Link> 
+                                        </Link>
                                     </SidebarMenuButton>
                                 </SidebarMenuItem>
                             </SidebarMenuSub>
