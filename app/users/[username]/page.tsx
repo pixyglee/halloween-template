@@ -10,6 +10,8 @@ import {
 } from "@/components/ui/sheet"
 import { Button } from '@/components/ui/button'
 import EditUser from '@/components/EditUser'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import AppLineChart from '@/components/AppLineChart'
 
 const SingleUserPage = () => {
     return (
@@ -136,8 +138,25 @@ const SingleUserPage = () => {
                     </div>
                 </div>
                 <div className='w-full xl:w-2/3 space-y-6'>
-                    <div className='bg-primary-foreground p-4 rounded-lg'>User Card</div>
-                    <div className='bg-primary-foreground p-4 rounded-lg'>Chart</div>
+                    <div className='bg-primary-foreground p-4 rounded-lg'>
+                        <div className='flex items-center gap-2'>
+                            <Avatar className='size-12'>
+                                <AvatarImage src="https://github.com/shadcn.png" />
+                                <AvatarFallback>Pixy</AvatarFallback>
+                            </Avatar>
+                            <h1 className='text-xl font-semibold'>Pixy</h1>
+                        </div>
+                        <p className='text-sm text-muted-foreground'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ad, blanditiis error. Necessitatibus, cum! Alias aperiam porro incidunt. 
+                            Quis autem expedita quasi fuga aspernatur! Repudiandae iste maxime omnis aliquid, rerum assumenda,
+                            velit quam perferendis deserunt ut veritatis dolores exercitationem vero praesentium explicabo fugiat 
+                            libero delectus, minus magni voluptatem dolorum quia provident.
+                        </p>
+                    </div>
+                    <div className='bg-primary-foreground p-4 rounded-lg'>
+                        <h1 className='text-xl font-semibold mb-4'>User Activity</h1>
+                        <AppLineChart/>
+                    </div>
                 </div>
 
             </div>
